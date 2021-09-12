@@ -1,0 +1,22 @@
+nav {
+  background-color: rgb(102, 99, 99);
+}
+
+nav img {
+  width: 70px;
+  padding-top: 0;
+}
+nav ul {
+  float: right;
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

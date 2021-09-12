@@ -1,0 +1,22 @@
+<app-header>
+</app-header>
+<br/>
+<form #basicForm="ngForm" (submit)="getData(basicForm.value)" >
+    <input type="text" ngModel name="user" placeholder="Enter name" />
+    <br/><br/>
+    <input type="text" ngModel name="email" placeholder="Enter email" />
+    <br/><br/>
+    <input type="text" ngModel name="password" placeholder="Enter password" />
+    <br/><br/>
+    <button>Register</button>
+
+    <li>
+        <ul>{{userData.name}}</ul>
+        <ul>{{userData.email}}</ul>
+        <ul>{{userData.password}}</ul>
+    </li>
+</form>
+
+<button (click)="togglee()"></button>
+<h1 *ngIf="display">Lets Toggle </h1>
+

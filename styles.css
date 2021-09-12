@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.article {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 40%;
+  height: 80%;
+  border: 1px solid rgb(21, 17, 26);
+}
+
+.btn {
+  color: black;
+  size: 5cm;
+  padding-top: 25px;
+  padding-right: 150px;
+  margin: 3%;
+}
+
+.container {
+  text-align: center;
+}
